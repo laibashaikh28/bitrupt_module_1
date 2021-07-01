@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitrupt Trainee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topdiv">
+        <header>
+            <a href="home.html"><img src="https://team.bitrupt.co/pluginfile.php/1/core_admin/logocompact/300x300/1604996907/Bitrupt.png" class="logo" height="50px" width="50px" alt="bitrupt">
+            </a>
+            <h1>My First Website By Bitrupt</h1>
+        </header>
+    </div>
+    <div class="bottomdiv">
+        <div id="iconsidenav">
+            <a href="home.html"><i class="fa fa-home" style="font-size:24px"></i></a>
+            <a href="profile.html"><i class="fa fa-user" style="font-size:24px"></i></a>
+            <a href="about.html"><i class="fa fa-group" style="font-size:24px"></i></a>
+            <a href="contact.html"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+            <a href="index.html"><i class="fa fa-sign-out logout" style="font-size:24px"></i></a>
+        </div>
+        <div id="sidenav">
+            <a href="home.html"><button class="btn">Home</button></a>
+            <a href="profile.html"><button class="btn">Profile</button></a>
+            <a href="about.html"><button class="btn">About Us</button></a>
+            <a href="contact.html"><button class="btn">Contact Us</button></a>
+            <a href="index.html"><button class="btn logout">Logout</button></a>
+        </div>
+        <div id="rightdiv">
+            <div id="content" class="contact">
+                <form action="" method="POST" onsubmit="return onSubmit()">
+                    <div class="field">
+                        <label for="fname">Full name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Your name">
+                    </div>
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" placeholder="Your email">
+                    </div>
+                    <div class="field">
+                        <label for="country">Country:</label>
+                        <select name="country" id="country">
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="India">India</option>
+                            <option value="Dubai">Dubai</option>
+                            <option value="Turkey">Turkey</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="subject" class="col">Subject:</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="field">
+                        <label for="message" class="msg">Your Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write something.."></textarea>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14474.690897813894!2d67.0703064!3d24.9091427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71747af0780cf74f!2sBitrupt!5e0!3m2!1sen!2s!4v1605528546516!5m2!1sen!2s" id="media" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
